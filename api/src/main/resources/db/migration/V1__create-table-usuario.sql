@@ -1,0 +1,15 @@
+CREATE TABLE usuario(
+id bigint NOT NULL auto_increment,
+nome VARCHAR(100) NOT NULL,
+sobrenome VARCHAR(100) NOT NULL,
+email VARCHAR(100) NOT NULL,
+nomedeexibicao VARCHAR(100) NOT NULL,
+rua VARCHAR(100) NOT NULL,
+bairro VARCHAR(100) NOT NULL,
+numero VARCHAR(20) NOT NULL,
+cep VARCHAR(9) NOT NULL,
+complemento VARCHAR(100),
+uf CHAR(2) NOT NULL,
+
+PRIMARY KEY (id)
+);
